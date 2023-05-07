@@ -1,24 +1,11 @@
 ﻿using System.ComponentModel.Design;
 
+namespace Anagrams;
+
 public class Anagram
 {
     public string Reverse(string input)
-    {
-        while (string.IsNullOrEmpty(input)) 
-        {
-            Console.WriteLine("Напиши щось:");
-            input = Console.ReadLine();
-
-            if (string.IsNullOrEmpty(input)) 
-            {
-                Console.WriteLine("Напиши щось:");
-                input = Console.ReadLine();
-                
-            }     
-            
-        }
-        
-        
+    {      
         const string separator = " ";
         string[] words = input.Split(separator);
         string[] reverseWords = new string[words.Length];
