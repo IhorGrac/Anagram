@@ -12,12 +12,12 @@ public class Program
 
         while (string.IsNullOrEmpty(input))
         {          
-            Console.WriteLine("Напиши щось:");
+            Console.WriteLine("Write something:");
             input = Console.ReadLine();
         }
 
         Anagram reverse = new Anagram();
-        var reversedInput = reverse.Reverse(input);
+        string reversedInput = reverse.Reverse(input);
 
         Console.WriteLine(reversedInput);  
     }  

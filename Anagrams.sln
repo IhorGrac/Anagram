@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams", "Anagrams\Anagrams.csproj", "{0566184E-DB45-489A-9926-D07D4302385B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams.Tests", "Anagram.Tests\Anagrams.Tests.csproj", "{4C44F12C-A449-48A0-A3CC-EC3FA3BE433E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams.Tests", "Anagram.Tests\Anagrams.Tests.csproj", "{4C44F12C-A449-48A0-A3CC-EC3FA3BE433E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -22,7 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp1\Anagrams.csproj" />
+    <ProjectReference Include="..\Anagrams\Anagrams.csproj" />
+    <ProjectReference Include="..\Anagrams\Anagrams.csproj" />
   </ItemGroup>
 
 </Project>

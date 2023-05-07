@@ -5,7 +5,7 @@ namespace Anagrams;
 public class Anagram
 {
     public string Reverse(string input)
-    {      
+    {
         const string separator = " ";
         string[] words = input.Split(separator);
         string[] reverseWords = new string[words.Length];
@@ -18,7 +18,7 @@ public class Anagram
 
 
     public string ReverseWord(string input)
-    {
+    {        
         char[] chars = input.ToCharArray();
 
         int i = 0;
