@@ -6,6 +6,8 @@ public class Anagram
 {
     public string Reverse(string input)
     {
+        ArgumentException.ThrowIfNullOrEmpty(input);
+
         const string separator = " ";
         string[] words = input.Split(separator);
         string[] reverseWords = new string[words.Length];
